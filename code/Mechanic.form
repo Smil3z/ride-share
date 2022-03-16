@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="code.Mechanic">
+  <grid id="27dc6" binding="MechanicPanel" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="50" bottom="100" right="50"/>
+    <constraints>
+      <xy x="59" y="23" width="963" height="505"/>
+    </constraints>
+    <properties>
+      <background color="-328974"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1c6ff" class="javax.swing.JLabel" binding="AtHome">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <foreground color="-16777216"/>
+          <text value="AT HOME"/>
+        </properties>
+      </component>
+      <component id="ca5e3" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="28"/>
+          <foreground color="-16777216"/>
+          <text value="ON-DEMAND SERVICES"/>
+        </properties>
+      </component>
+      <component id="a9c46" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Standard"/>
+            <item value="Gold"/>
+          </model>
+        </properties>
+      </component>
+      <component id="18bf9" class="javax.swing.JComboBox" binding="ComboBox">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Standard"/>
+            <item value="Gold"/>
+          </model>
+        </properties>
+      </component>
+      <component id="5266" class="javax.swing.JLabel" binding="AtShop">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <foreground color="-16777216"/>
+          <text value="AT SHOP"/>
+        </properties>
+      </component>
+      <component id="67789" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="9f24e" class="javax.swing.JButton" binding="ShoppingCart">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <text value="🛒"/>
+        </properties>
+      </component>
+      <component id="e0399" class="javax.swing.JButton" binding="oil$5500Button" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Oil $55.00"/>
+        </properties>
+      </component>
+      <component id="d7c4b" class="javax.swing.JButton" binding="windshieldWiper$1499Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Windshield Wiper  $14.99"/>
+        </properties>
+      </component>
+      <component id="6f8b1" class="javax.swing.JButton" binding="tire$10450Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Tire $104.50"/>
+        </properties>
+      </component>
+      <component id="2fae8" class="javax.swing.JButton" binding="detailing$12000Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Detailing  $120.00"/>
+        </properties>
+      </component>
+      <component id="6f96c" class="javax.swing.JButton" binding="Oil">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Oil $50.00"/>
+        </properties>
+      </component>
+      <component id="3a85a" class="javax.swing.JButton" binding="WindShieldWipers">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Windshield Wiper  $19.99"/>
+        </properties>
+      </component>
+      <component id="a2b49" class="javax.swing.JButton" binding="Tire">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Tire $99.50"/>
+        </properties>
+      </component>
+      <component id="aa9a8" class="javax.swing.JButton" binding="Battery">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Battery  $100.00"/>
+        </properties>
+      </component>
+      <component id="94b67" class="javax.swing.JButton" binding="Detailing">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Detailing  $115.00"/>
+        </properties>
+      </component>
+      <component id="97ac8" class="javax.swing.JButton" binding="transmission$169900Button" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Transmission $1699.00"/>
+        </properties>
+      </component>
+      <component id="886c1" class="javax.swing.JButton" binding="clutch$86300Button" default-binding="true">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Clutch  $863.00"/>
+        </properties>
+      </component>
+      <component id="16332" class="javax.swing.JButton" binding="brake$45000Button" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Brake $450.00"/>
+        </properties>
+      </component>
+      <component id="96c6a" class="javax.swing.JButton" binding="drivetrain$20000Button" default-binding="true">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Drivetrain $200.00"/>
+        </properties>
+      </component>
+      <component id="b2fd2" class="javax.swing.JButton" binding="fuelSystem$7500Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Fuel System  $75.00"/>
+        </properties>
+      </component>
+      <component id="ba260" class="javax.swing.JButton" binding="exhaust$10200Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Exhaust  $102.00"/>
+        </properties>
+      </component>
+      <component id="c9280" class="javax.swing.JButton" binding="cooling$9900Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Cooling  $99.00"/>
+        </properties>
+      </component>
+      <component id="93d0d" class="javax.swing.JButton" binding="electrical$40000Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Electrical  $400.00"/>
+        </properties>
+      </component>
+      <component id="858d1" class="javax.swing.JButton" binding="engine$300000Button" default-binding="true">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Engine $3000.00"/>
+        </properties>
+      </component>
+      <component id="82f7a" class="javax.swing.JButton" binding="suspension$21900Button" default-binding="true">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Suspension  $219.00"/>
+        </properties>
+      </component>
+      <component id="bee71" class="javax.swing.JButton" binding="differential$49000Button" default-binding="true">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Differential  $490.00"/>
+        </properties>
+      </component>
+      <component id="92350" class="javax.swing.JButton" binding="battery$10500Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8500021"/>
+          <font size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Battery  $105.00"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
